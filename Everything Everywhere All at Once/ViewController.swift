@@ -20,13 +20,14 @@ class ViewController: UIViewController {
     //MARK: - UI elements
     private let tableView: UITableView = {
         let table = UITableView(frame: .zero, style: .plain)
-        table.backgroundColor = .yellow
+        table.backgroundColor = .clear
         table.register(UITableViewCell.self, forCellReuseIdentifier: "TVCell")
         return table
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         title = "Scenarios"
         if #available(iOS 13.0, *) {
             overrideUserInterfaceStyle = .light
