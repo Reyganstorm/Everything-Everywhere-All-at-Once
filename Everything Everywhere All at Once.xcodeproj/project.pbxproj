@@ -13,6 +13,7 @@
 		E800C36F2A36FBD500A417DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E800C36D2A36FBD500A417DF /* Main.storyboard */; };
 		E800C3712A36FBD600A417DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E800C3702A36FBD600A417DF /* Assets.xcassets */; };
 		E800C3742A36FBD600A417DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E800C3722A36FBD600A417DF /* LaunchScreen.storyboard */; };
+		E82359602A3885FF00E10702 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E823595F2A3885FF00E10702 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82359602A3885FF00E10702 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "Everything Everywhere All at Once";
+			packageProductDependencies = (
+				E823595F2A3885FF00E10702 /* Lottie */,
+			);
 			productName = "Everything Everywhere All at Once";
 			productReference = E800C3642A36FBD500A417DF /* Everything Everywhere All at Once.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = E800C35B2A36FBD500A417DF;
+			packageReferences = (
+				E823595E2A3885FF00E10702 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = E800C3652A36FBD500A417DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -360,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E823595E2A3885FF00E10702 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E823595F2A3885FF00E10702 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E823595E2A3885FF00E10702 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E800C35C2A36FBD500A417DF /* Project object */;
 }
