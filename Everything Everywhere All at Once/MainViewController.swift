@@ -7,15 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    private let testList = [
-        "First",
-        "Second",
-        "Third",
-        "Four",
-        "Five"
-    ]
+class MainViewController: UIViewController {
 
     //MARK: - UI elements
     private let tableView: UITableView = {
@@ -40,7 +32,7 @@ class ViewController: UIViewController {
 }
 
 //MARK: - Private methods
-private extension ViewController {
+private extension MainViewController {
     func addViews() {
         view.addSubview(tableView)
     }
@@ -61,22 +53,22 @@ private extension ViewController {
         tableView.delegate = self
     }
    
-//    func makeSomething() {
-//        let vc = TestViewController()
-//        vc.modalPresentationStyle = .fullScreen
-//        present(vc, animated: true)
-//    }
+    func present(_ controller: UIViewController) {
+        let vc = controller
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: false)
+    }
 }
 
-extension ViewController: UITableViewDataSource, UITableViewDelegate {
+extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        testList.count
+        MainTittleList.allCases.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TVCell", for: indexPath)
         cell.backgroundColor = .white
-        let testName = testList[indexPath.row]
+        let testName = MainTittleList.allCases[indexPath.row].tittle
         cell.textLabel?.text = testName
         cell.textLabel?.textColor = .black
         return cell
@@ -84,8 +76,17 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
 
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if indexPath.row == 0 {
-
+        
+        switch MainTittleList.allCases[indexPath.row] {
+            
+        case .lottie:
+            present(LottieViewController())
+        case .second:
+            return print("Nothing")
+        case .third:
+            return print("Nothing")
+        case .four:
+            return print("Nothing")
         }
         tableView.deselectRow(at: indexPath, animated: false)
     }
