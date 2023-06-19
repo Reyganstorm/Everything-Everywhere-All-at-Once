@@ -12,6 +12,9 @@
 		E800C36C2A36FBD500A417DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E800C36B2A36FBD500A417DF /* MainViewController.swift */; };
 		E800C3712A36FBD600A417DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E800C3702A36FBD600A417DF /* Assets.xcassets */; };
 		E800C3742A36FBD600A417DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E800C3722A36FBD600A417DF /* LaunchScreen.storyboard */; };
+		E810131A2A403BC80024215F /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81013192A403BC80024215F /* SimpleViewController.swift */; };
+		E810131C2A4040690024215F /* ListLottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810131B2A4040690024215F /* ListLottieViewController.swift */; };
+		E810131E2A4041C20024215F /* onboardingSecondPart.json in Resources */ = {isa = PBXBuildFile; fileRef = E810131D2A4041C20024215F /* onboardingSecondPart.json */; };
 		E82359602A3885FF00E10702 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E823595F2A3885FF00E10702 /* Lottie */; };
 		E82359642A39CB7000E10702 /* dayNightSwitch.json in Resources */ = {isa = PBXBuildFile; fileRef = E82359632A39CB7000E10702 /* dayNightSwitch.json */; };
 		E82359672A39CBB300E10702 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82359662A39CBB300E10702 /* LottieViewController.swift */; };
@@ -27,6 +30,9 @@
 		E800C3702A36FBD600A417DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E800C3732A36FBD600A417DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E800C3752A36FBD600A417DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81013192A403BC80024215F /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
+		E810131B2A4040690024215F /* ListLottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLottieViewController.swift; sourceTree = "<group>"; };
+		E810131D2A4041C20024215F /* onboardingSecondPart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboardingSecondPart.json; sourceTree = "<group>"; };
 		E82359632A39CB7000E10702 /* dayNightSwitch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dayNightSwitch.json; path = ../../../../../../Downloads/dayNightSwitch.json; sourceTree = "<group>"; };
 		E82359662A39CBB300E10702 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		E82359682A39CC4800E10702 /* MainTittleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTittleList.swift; sourceTree = "<group>"; };
@@ -77,6 +83,23 @@
 			path = "Everything Everywhere All at Once";
 			sourceTree = "<group>";
 		};
+		E81013172A403B8C0024215F /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				E82359662A39CBB300E10702 /* LottieViewController.swift */,
+				E810131B2A4040690024215F /* ListLottieViewController.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		E81013182A403B9E0024215F /* JustVCs */ = {
+			isa = PBXGroup;
+			children = (
+				E81013192A403BC80024215F /* SimpleViewController.swift */,
+			);
+			path = JustVCs;
+			sourceTree = "<group>";
+		};
 		E82359612A39CB2E00E10702 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +112,7 @@
 		E82359622A39CB3F00E10702 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				E810131D2A4041C20024215F /* onboardingSecondPart.json */,
 				E82359632A39CB7000E10702 /* dayNightSwitch.json */,
 			);
 			path = Animations;
@@ -97,7 +121,8 @@
 		E82359652A39CB7F00E10702 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E82359662A39CBB300E10702 /* LottieViewController.swift */,
+				E81013182A403B9E0024215F /* JustVCs */,
+				E81013172A403B8C0024215F /* Lottie */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -177,6 +202,7 @@
 				E800C3742A36FBD600A417DF /* LaunchScreen.storyboard in Resources */,
 				E82359642A39CB7000E10702 /* dayNightSwitch.json in Resources */,
 				E800C3712A36FBD600A417DF /* Assets.xcassets in Resources */,
+				E810131E2A4041C20024215F /* onboardingSecondPart.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +218,8 @@
 				E800C3682A36FBD500A417DF /* AppDelegate.swift in Sources */,
 				E82359692A39CC4800E10702 /* MainTittleList.swift in Sources */,
 				E823596C2A39CF0B00E10702 /* UIViewController + ext.swift in Sources */,
+				E810131C2A4040690024215F /* ListLottieViewController.swift in Sources */,
+				E810131A2A403BC80024215F /* SimpleViewController.swift in Sources */,
 				E800C36A2A36FBD500A417DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,13 +1,13 @@
 //
-//  ViewController.swift
+//  ListLottieViewController.swift
 //  Everything Everywhere All at Once
 //
-//  Created by Руслан Штыбаев on 12.06.2023.
+//  Created by Руслан Штыбаев on 19.06.2023.
 //
 
 import UIKit
 
-class MainViewController: UIViewController {
+class ListLottieViewController: UIViewController {
 
     //MARK: - UI elements
     private let tableView: UITableView = {
@@ -28,11 +28,10 @@ class MainViewController: UIViewController {
         layoutViews()
         configure()
     }
-    
 }
 
-//MARK: - Private methods
-private extension MainViewController {
+private extension ListLottieViewController {
+    
     func addViews() {
         view.addSubview(tableView)
     }
@@ -54,33 +53,30 @@ private extension MainViewController {
     }
 }
 
-extension MainViewController: UITableViewDataSource, UITableViewDelegate {
+
+extension ListLottieViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        MainTittleList.allCases.count
+        2
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TVCell", for: indexPath)
         cell.backgroundColor = .white
-        let testName = MainTittleList.allCases[indexPath.row].tittle
+        let testName = "Test"
         cell.textLabel?.text = testName
         cell.textLabel?.textColor = .black
         return cell
     }
-
-    
+  
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        switch MainTittleList.allCases[indexPath.row] {
-            
-        case .lottie:
-            present(ListLottieViewController())
-        case .second:
-            present(SimpleViewController())
-        case .third:
-            return print("Nothing")
-        case .four:
-            return print("Nothing")
+        switch indexPath.row {
+        case 0:
+            present(LottieViewController())
+        case 1:
+            print("hi")
+        default:
+            print("OOOps")
         }
         tableView.deselectRow(at: indexPath, animated: false)
     }

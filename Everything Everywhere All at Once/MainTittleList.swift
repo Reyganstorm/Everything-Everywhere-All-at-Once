@@ -18,7 +18,7 @@ enum MainTittleList: Int, CaseIterable {
         case .lottie:
             return "Lottie Animations"
         case .second:
-            return "Second"
+            return "Just For Show Window"
         case .third:
             return "Third"
         case .four:

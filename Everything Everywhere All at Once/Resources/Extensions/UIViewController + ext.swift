@@ -9,13 +9,19 @@ import UIKit
 
 extension UIViewController {
     
-        @objc private func back() {
-            dismiss(animated: false)
-        }
+    @objc private func back() {
+        dismiss(animated: false)
+    }
     
-        func dissmisWithSwipe() {
-            let swipe = UISwipeGestureRecognizer(target: self, action: #selector(back))
-            swipe.direction = .right
-            self.view.addGestureRecognizer(swipe)
-        }
+    func dissmisWithSwipe() {
+        let swipe = UISwipeGestureRecognizer(target: self, action: #selector(back))
+        swipe.direction = .right
+        self.view.addGestureRecognizer(swipe)
+    }
+    
+    func present(_ controller: UIViewController) {
+        let vc = controller
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
 }
