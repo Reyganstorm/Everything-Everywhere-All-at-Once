@@ -78,7 +78,7 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
         case .second:
             present(SimpleViewController())
         case .third:
-            return print("Nothing")
+            present(CircleViewController())
         case .four:
             return print("Nothing")
         }

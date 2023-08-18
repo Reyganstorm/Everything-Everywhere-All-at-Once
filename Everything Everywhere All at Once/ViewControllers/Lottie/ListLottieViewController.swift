@@ -8,6 +8,13 @@
 import UIKit
 
 class ListLottieViewController: UIViewController {
+    
+    let listLottie = [
+        "Day Night Switch",
+        "Onboarding Second Part",
+        "Onboarding First Part",
+        "Full Onboarding"
+    ]
 
     //MARK: - UI elements
     private let tableView: UITableView = {
@@ -56,13 +63,13 @@ private extension ListLottieViewController {
 
 extension ListLottieViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        2
+        listLottie.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TVCell", for: indexPath)
         cell.backgroundColor = .white
-        let testName = "Test"
+        let testName = listLottie[indexPath.row]
         cell.textLabel?.text = testName
         cell.textLabel?.textColor = .black
         return cell
@@ -74,7 +81,9 @@ extension ListLottieViewController: UITableViewDataSource, UITableViewDelegate {
         case 0:
             present(LottieViewController())
         case 1:
-            print("hi")
+            present(OnboardingViewController())
+        case 2:
+            present(FirstOnbPartViewController())
         default:
             print("OOOps")
         }

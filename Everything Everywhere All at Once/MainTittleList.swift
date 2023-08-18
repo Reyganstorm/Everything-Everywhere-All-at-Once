@@ -20,7 +20,7 @@ enum MainTittleList: Int, CaseIterable {
         case .second:
             return "Just For Show Window"
         case .third:
-            return "Third"
+            return "Circle animation"
         case .four:
             return "Four"
         }
