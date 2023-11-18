@@ -19,18 +19,27 @@
 		E81013222A4045CA0024215F /* FirstOnbPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81013212A4045CA0024215F /* FirstOnbPartViewController.swift */; };
 		E810132E2A4046380024215F /* onboardingFirstPart.json in Resources */ = {isa = PBXBuildFile; fileRef = E81013292A4046380024215F /* onboardingFirstPart.json */; };
 		E81013302A4069810024215F /* onbFirst.json in Resources */ = {isa = PBXBuildFile; fileRef = E810132F2A4069810024215F /* onbFirst.json */; };
-		E82359602A3885FF00E10702 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E823595F2A3885FF00E10702 /* Lottie */; };
 		E82359642A39CB7000E10702 /* dayNightSwitch.json in Resources */ = {isa = PBXBuildFile; fileRef = E82359632A39CB7000E10702 /* dayNightSwitch.json */; };
 		E82359672A39CBB300E10702 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82359662A39CBB300E10702 /* LottieViewController.swift */; };
 		E82359692A39CC4800E10702 /* MainTittleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82359682A39CC4800E10702 /* MainTittleList.swift */; };
 		E823596C2A39CF0B00E10702 /* UIViewController + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823596B2A39CF0B00E10702 /* UIViewController + ext.swift */; };
-		E82BBEC12A8F95400072A3F9 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = E82BBEC02A8F95400072A3F9 /* RxBlocking */; };
-		E82BBEC32A8F95400072A3F9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E82BBEC22A8F95400072A3F9 /* RxCocoa */; };
-		E82BBEC52A8F95400072A3F9 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E82BBEC42A8F95400072A3F9 /* RxRelay */; };
-		E82BBEC72A8F95400072A3F9 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E82BBEC62A8F95400072A3F9 /* RxSwift */; };
-		E82BBEC92A8F95400072A3F9 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = E82BBEC82A8F95400072A3F9 /* RxTest */; };
+		E8240EC12AEC0913002825A9 /* TextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8240EC02AEC0913002825A9 /* TextViewViewController.swift */; };
+		E82BBECC2A9004850072A3F9 /* RxSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82BBECB2A9004850072A3F9 /* RxSwiftViewController.swift */; };
+		E877241B2B0963FA003150F2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877241A2B0963FA003150F2 /* Coordinator.swift */; };
 		E898B2942A726BC7004EF10B /* CircleAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898B2932A726BC7004EF10B /* CircleAnimViewController.swift */; };
 		E898B2962A72B7B2004EF10B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898B2952A72B7B2004EF10B /* CircleView.swift */; };
+		E8A92F822B09654A000E5EAD /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F812B09654A000E5EAD /* RegisterCoordinator.swift */; };
+		E8A92F852B0965CC000E5EAD /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F842B0965CC000E5EAD /* ModuleFactory.swift */; };
+		E8A92F872B096612000E5EAD /* EnterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F862B096612000E5EAD /* EnterPhoneViewController.swift */; };
+		E8A92F892B096726000E5EAD /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F882B096726000E5EAD /* FlowController.swift */; };
+		E8A92F8B2B0968D5000E5EAD /* BaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F8A2B0968D5000E5EAD /* BaseData.swift */; };
+		E8A92F8D2B096A2D000E5EAD /* ComformPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F8C2B096A2D000E5EAD /* ComformPhoneViewController.swift */; };
+		E8A92F8F2B096A47000E5EAD /* EnterPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F8E2B096A47000E5EAD /* EnterPasswordViewController.swift */; };
+		E8A92F912B096A57000E5EAD /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F902B096A57000E5EAD /* EnterNameViewController.swift */; };
+		E8A92F932B096A6F000E5EAD /* EnterBirtdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F922B096A6F000E5EAD /* EnterBirtdayViewController.swift */; };
+		E8A92F952B096D9F000E5EAD /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F942B096D9F000E5EAD /* CoordinatorFactory.swift */; };
+		E8A92F972B09714A000E5EAD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F962B09714A000E5EAD /* AppCoordinator.swift */; };
+		E8A92F9B2B0976B3000E5EAD /* TestovViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F9A2B0976B3000E5EAD /* TestovViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,8 +61,23 @@
 		E82359662A39CBB300E10702 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		E82359682A39CC4800E10702 /* MainTittleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTittleList.swift; sourceTree = "<group>"; };
 		E823596B2A39CF0B00E10702 /* UIViewController + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + ext.swift"; sourceTree = "<group>"; };
+		E8240EC02AEC0913002825A9 /* TextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewViewController.swift; sourceTree = "<group>"; };
+		E82BBECB2A9004850072A3F9 /* RxSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftViewController.swift; sourceTree = "<group>"; };
+		E877241A2B0963FA003150F2 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		E898B2932A726BC7004EF10B /* CircleAnimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnimViewController.swift; sourceTree = "<group>"; };
 		E898B2952A72B7B2004EF10B /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		E8A92F812B09654A000E5EAD /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
+		E8A92F842B0965CC000E5EAD /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		E8A92F862B096612000E5EAD /* EnterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPhoneViewController.swift; sourceTree = "<group>"; };
+		E8A92F882B096726000E5EAD /* FlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
+		E8A92F8A2B0968D5000E5EAD /* BaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseData.swift; sourceTree = "<group>"; };
+		E8A92F8C2B096A2D000E5EAD /* ComformPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComformPhoneViewController.swift; sourceTree = "<group>"; };
+		E8A92F8E2B096A47000E5EAD /* EnterPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPasswordViewController.swift; sourceTree = "<group>"; };
+		E8A92F902B096A57000E5EAD /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		E8A92F922B096A6F000E5EAD /* EnterBirtdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterBirtdayViewController.swift; sourceTree = "<group>"; };
+		E8A92F942B096D9F000E5EAD /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		E8A92F962B09714A000E5EAD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E8A92F9A2B0976B3000E5EAD /* TestovViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestovViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82BBEC32A8F95400072A3F9 /* RxCocoa in Frameworks */,
-				E82359602A3885FF00E10702 /* Lottie in Frameworks */,
-				E82BBEC72A8F95400072A3F9 /* RxSwift in Frameworks */,
-				E82BBEC52A8F95400072A3F9 /* RxRelay in Frameworks */,
-				E82BBEC92A8F95400072A3F9 /* RxTest in Frameworks */,
-				E82BBEC12A8F95400072A3F9 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +114,11 @@
 				E82359612A39CB2E00E10702 /* Resources */,
 				E800C3672A36FBD500A417DF /* AppDelegate.swift */,
 				E800C3692A36FBD500A417DF /* SceneDelegate.swift */,
+				E87724192B0963EA003150F2 /* Base */,
 				E800C36B2A36FBD500A417DF /* MainViewController.swift */,
 				E82359682A39CC4800E10702 /* MainTittleList.swift */,
+				E8A92F832B0965B8000E5EAD /* Factories */,
+				E8A92F802B096536000E5EAD /* Coordinators */,
 				E800C3702A36FBD600A417DF /* Assets.xcassets */,
 				E800C3722A36FBD600A417DF /* LaunchScreen.storyboard */,
 				E800C3752A36FBD600A417DF /* Info.plist */,
@@ -119,6 +140,8 @@
 		E81013182A403B9E0024215F /* JustVCs */ = {
 			isa = PBXGroup;
 			children = (
+				E898B2932A726BC7004EF10B /* CircleAnimViewController.swift */,
+				E898B2952A72B7B2004EF10B /* CircleView.swift */,
 				E81013192A403BC80024215F /* SimpleViewController.swift */,
 			);
 			path = JustVCs;
@@ -147,6 +170,8 @@
 		E82359652A39CB7F00E10702 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E8240EBF2AEC08EE002825A9 /* TextView */,
+				E82BBECA2A9004640072A3F9 /* RxSwift */,
 				E898B2922A726BB2004EF10B /* TestVC */,
 				E81013182A403B9E0024215F /* JustVCs */,
 				E81013172A403B8C0024215F /* Lottie */,
@@ -162,13 +187,61 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		E8240EBF2AEC08EE002825A9 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				E8240EC02AEC0913002825A9 /* TextViewViewController.swift */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		E82BBECA2A9004640072A3F9 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E82BBECB2A9004850072A3F9 /* RxSwiftViewController.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		E87724192B0963EA003150F2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E877241A2B0963FA003150F2 /* Coordinator.swift */,
+				E8A92F882B096726000E5EAD /* FlowController.swift */,
+				E8A92F8A2B0968D5000E5EAD /* BaseData.swift */,
+				E8A92F962B09714A000E5EAD /* AppCoordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		E898B2922A726BB2004EF10B /* TestVC */ = {
 			isa = PBXGroup;
 			children = (
-				E898B2932A726BC7004EF10B /* CircleAnimViewController.swift */,
-				E898B2952A72B7B2004EF10B /* CircleView.swift */,
+				E8A92F862B096612000E5EAD /* EnterPhoneViewController.swift */,
+				E8A92F8C2B096A2D000E5EAD /* ComformPhoneViewController.swift */,
+				E8A92F8E2B096A47000E5EAD /* EnterPasswordViewController.swift */,
+				E8A92F902B096A57000E5EAD /* EnterNameViewController.swift */,
+				E8A92F922B096A6F000E5EAD /* EnterBirtdayViewController.swift */,
+				E8A92F9A2B0976B3000E5EAD /* TestovViewController.swift */,
 			);
 			path = TestVC;
+			sourceTree = "<group>";
+		};
+		E8A92F802B096536000E5EAD /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				E8A92F812B09654A000E5EAD /* RegisterCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		E8A92F832B0965B8000E5EAD /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				E8A92F842B0965CC000E5EAD /* ModuleFactory.swift */,
+				E8A92F942B096D9F000E5EAD /* CoordinatorFactory.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,12 +261,6 @@
 			);
 			name = "Everything Everywhere All at Once";
 			packageProductDependencies = (
-				E823595F2A3885FF00E10702 /* Lottie */,
-				E82BBEC02A8F95400072A3F9 /* RxBlocking */,
-				E82BBEC22A8F95400072A3F9 /* RxCocoa */,
-				E82BBEC42A8F95400072A3F9 /* RxRelay */,
-				E82BBEC62A8F95400072A3F9 /* RxSwift */,
-				E82BBEC82A8F95400072A3F9 /* RxTest */,
 			);
 			productName = "Everything Everywhere All at Once";
 			productReference = E800C3642A36FBD500A417DF /* Everything Everywhere All at Once.app */;
@@ -207,7 +274,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					E800C3632A36FBD500A417DF = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -224,8 +291,6 @@
 			);
 			mainGroup = E800C35B2A36FBD500A417DF;
 			packageReferences = (
-				E823595E2A3885FF00E10702 /* XCRemoteSwiftPackageReference "lottie-spm" */,
-				E82BBEBF2A8F95400072A3F9 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = E800C3652A36FBD500A417DF /* Products */;
 			projectDirPath = "";
@@ -257,18 +322,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8240EC12AEC0913002825A9 /* TextViewViewController.swift in Sources */,
 				E898B2962A72B7B2004EF10B /* CircleView.swift in Sources */,
+				E8A92F972B09714A000E5EAD /* AppCoordinator.swift in Sources */,
+				E8A92F8D2B096A2D000E5EAD /* ComformPhoneViewController.swift in Sources */,
+				E8A92F872B096612000E5EAD /* EnterPhoneViewController.swift in Sources */,
+				E8A92F9B2B0976B3000E5EAD /* TestovViewController.swift in Sources */,
+				E877241B2B0963FA003150F2 /* Coordinator.swift in Sources */,
 				E800C36C2A36FBD500A417DF /* MainViewController.swift in Sources */,
 				E82359672A39CBB300E10702 /* LottieViewController.swift in Sources */,
 				E800C3682A36FBD500A417DF /* AppDelegate.swift in Sources */,
+				E8A92F8F2B096A47000E5EAD /* EnterPasswordViewController.swift in Sources */,
 				E82359692A39CC4800E10702 /* MainTittleList.swift in Sources */,
 				E81013222A4045CA0024215F /* FirstOnbPartViewController.swift in Sources */,
 				E823596C2A39CF0B00E10702 /* UIViewController + ext.swift in Sources */,
+				E82BBECC2A9004850072A3F9 /* RxSwiftViewController.swift in Sources */,
+				E8A92F852B0965CC000E5EAD /* ModuleFactory.swift in Sources */,
+				E8A92F932B096A6F000E5EAD /* EnterBirtdayViewController.swift in Sources */,
 				E898B2942A726BC7004EF10B /* CircleAnimViewController.swift in Sources */,
 				E810131C2A4040690024215F /* ListLottieViewController.swift in Sources */,
 				E810131A2A403BC80024215F /* SimpleViewController.swift in Sources */,
+				E8A92F822B09654A000E5EAD /* RegisterCoordinator.swift in Sources */,
+				E8A92F912B096A57000E5EAD /* EnterNameViewController.swift in Sources */,
 				E81013202A4042CE0024215F /* OnboardingViewController.swift in Sources */,
 				E800C36A2A36FBD500A417DF /* SceneDelegate.swift in Sources */,
+				E8A92F8B2B0968D5000E5EAD /* BaseData.swift in Sources */,
+				E8A92F892B096726000E5EAD /* FlowController.swift in Sources */,
+				E8A92F952B096D9F000E5EAD /* CoordinatorFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +402,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -382,6 +463,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -478,58 +560,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E823595E2A3885FF00E10702 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-		E82BBEBF2A8F95400072A3F9 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				kind = exactVersion;
-				version = 6.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E823595F2A3885FF00E10702 /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E823595E2A3885FF00E10702 /* XCRemoteSwiftPackageReference "lottie-spm" */;
-			productName = Lottie;
-		};
-		E82BBEC02A8F95400072A3F9 /* RxBlocking */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E82BBEBF2A8F95400072A3F9 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxBlocking;
-		};
-		E82BBEC22A8F95400072A3F9 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E82BBEBF2A8F95400072A3F9 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		E82BBEC42A8F95400072A3F9 /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E82BBEBF2A8F95400072A3F9 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		E82BBEC62A8F95400072A3F9 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E82BBEBF2A8F95400072A3F9 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		E82BBEC82A8F95400072A3F9 /* RxTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E82BBEBF2A8F95400072A3F9 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E800C35C2A36FBD500A417DF /* Project object */;
 }

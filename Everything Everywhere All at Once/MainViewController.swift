@@ -79,7 +79,11 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
             present(SimpleViewController())
         case .third:
             present(CircleViewController())
-        case .four:
+//        case .four:
+//            return print("Nothing")
+//        case .five:
+//            return print("Nothing")
+        default:
             return print("Nothing")
         }
         tableView.deselectRow(at: indexPath, animated: false)

@@ -12,6 +12,7 @@ enum MainTittleList: Int, CaseIterable {
     case second
     case third
     case four
+    case five
     
     var tittle: String {
         switch self {
@@ -23,6 +24,8 @@ enum MainTittleList: Int, CaseIterable {
             return "Circle animation"
         case .four:
             return "Four"
+        case .five:
+            return "TextView"
         }
     }
 }
