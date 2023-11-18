@@ -9,7 +9,6 @@ import UIKit
 
 class ModuleFactory {
     
-    
     func createEnterPhoneNumber() -> EnterPhoneViewController {
         EnterPhoneViewController()
     }

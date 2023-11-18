@@ -71,21 +71,21 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        switch MainTittleList.allCases[indexPath.row] {
-            
-        case .lottie:
-            present(ListLottieViewController())
-        case .second:
-            present(SimpleViewController())
-        case .third:
-            present(CircleViewController())
-//        case .four:
+//        switch MainTittleList.allCases[indexPath.row] {
+//            
+//        case .lottie:
+//            present(ListLottieViewController())
+//        case .second:
+//            present(SimpleViewController())
+//        case .third:
+//            present(CircleViewController())
+////        case .four:
+////            return print("Nothing")
+////        case .five:
+////            return print("Nothing")
+//        default:
 //            return print("Nothing")
-//        case .five:
-//            return print("Nothing")
-        default:
-            return print("Nothing")
-        }
+//        }
         tableView.deselectRow(at: indexPath, animated: false)
     }
 }
