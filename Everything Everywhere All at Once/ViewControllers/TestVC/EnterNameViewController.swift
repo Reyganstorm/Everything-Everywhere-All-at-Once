@@ -34,7 +34,9 @@ class EnterNameViewController: UIViewController, FlowController {
     
     @objc
     private func didTapButton() {
-        completionHandler?("First tap")
+        guard let t = completionHandler else { return }
+        t("Firts tt")
+        //        completionHandler?("First tap")
     }
 
 

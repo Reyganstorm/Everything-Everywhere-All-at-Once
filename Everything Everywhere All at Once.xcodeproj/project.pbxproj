@@ -12,14 +12,6 @@
 		E800C3712A36FBD600A417DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E800C3702A36FBD600A417DF /* Assets.xcassets */; };
 		E800C3742A36FBD600A417DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E800C3722A36FBD600A417DF /* LaunchScreen.storyboard */; };
 		E810131A2A403BC80024215F /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81013192A403BC80024215F /* SimpleViewController.swift */; };
-		E810131C2A4040690024215F /* ListLottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810131B2A4040690024215F /* ListLottieViewController.swift */; };
-		E810131E2A4041C20024215F /* onboardingSecondPart.json in Resources */ = {isa = PBXBuildFile; fileRef = E810131D2A4041C20024215F /* onboardingSecondPart.json */; };
-		E81013202A4042CE0024215F /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E810131F2A4042CE0024215F /* OnboardingViewController.swift */; };
-		E81013222A4045CA0024215F /* FirstOnbPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81013212A4045CA0024215F /* FirstOnbPartViewController.swift */; };
-		E810132E2A4046380024215F /* onboardingFirstPart.json in Resources */ = {isa = PBXBuildFile; fileRef = E81013292A4046380024215F /* onboardingFirstPart.json */; };
-		E81013302A4069810024215F /* onbFirst.json in Resources */ = {isa = PBXBuildFile; fileRef = E810132F2A4069810024215F /* onbFirst.json */; };
-		E82359642A39CB7000E10702 /* dayNightSwitch.json in Resources */ = {isa = PBXBuildFile; fileRef = E82359632A39CB7000E10702 /* dayNightSwitch.json */; };
-		E82359672A39CBB300E10702 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82359662A39CBB300E10702 /* LottieViewController.swift */; };
 		E82359692A39CC4800E10702 /* MainTittleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82359682A39CC4800E10702 /* MainTittleList.swift */; };
 		E823596C2A39CF0B00E10702 /* UIViewController + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823596B2A39CF0B00E10702 /* UIViewController + ext.swift */; };
 		E8240EC12AEC0913002825A9 /* TextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8240EC02AEC0913002825A9 /* TextViewViewController.swift */; };
@@ -27,6 +19,7 @@
 		E877241B2B0963FA003150F2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877241A2B0963FA003150F2 /* Coordinator.swift */; };
 		E898B2942A726BC7004EF10B /* CircleAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898B2932A726BC7004EF10B /* CircleAnimViewController.swift */; };
 		E898B2962A72B7B2004EF10B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E898B2952A72B7B2004EF10B /* CircleView.swift */; };
+		E89B1D1F2B58FF6D00DC4662 /* ColorPanel in Frameworks */ = {isa = PBXBuildFile; productRef = E89B1D1E2B58FF6D00DC4662 /* ColorPanel */; };
 		E8A92F822B09654A000E5EAD /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F812B09654A000E5EAD /* RegisterCoordinator.swift */; };
 		E8A92F852B0965CC000E5EAD /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F842B0965CC000E5EAD /* ModuleFactory.swift */; };
 		E8A92F872B096612000E5EAD /* EnterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F862B096612000E5EAD /* EnterPhoneViewController.swift */; };
@@ -49,14 +42,6 @@
 		E800C3732A36FBD600A417DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E800C3752A36FBD600A417DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E81013192A403BC80024215F /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
-		E810131B2A4040690024215F /* ListLottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLottieViewController.swift; sourceTree = "<group>"; };
-		E810131D2A4041C20024215F /* onboardingSecondPart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboardingSecondPart.json; sourceTree = "<group>"; };
-		E810131F2A4042CE0024215F /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
-		E81013212A4045CA0024215F /* FirstOnbPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnbPartViewController.swift; sourceTree = "<group>"; };
-		E81013292A4046380024215F /* onboardingFirstPart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboardingFirstPart.json; sourceTree = "<group>"; };
-		E810132F2A4069810024215F /* onbFirst.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onbFirst.json; sourceTree = "<group>"; };
-		E82359632A39CB7000E10702 /* dayNightSwitch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dayNightSwitch.json; path = ../../../../../../Downloads/dayNightSwitch.json; sourceTree = "<group>"; };
-		E82359662A39CBB300E10702 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		E82359682A39CC4800E10702 /* MainTittleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTittleList.swift; sourceTree = "<group>"; };
 		E823596B2A39CF0B00E10702 /* UIViewController + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + ext.swift"; sourceTree = "<group>"; };
 		E8240EC02AEC0913002825A9 /* TextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89B1D1F2B58FF6D00DC4662 /* ColorPanel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,10 +110,6 @@
 		E81013172A403B8C0024215F /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				E82359662A39CBB300E10702 /* LottieViewController.swift */,
-				E810131B2A4040690024215F /* ListLottieViewController.swift */,
-				E810131F2A4042CE0024215F /* OnboardingViewController.swift */,
-				E81013212A4045CA0024215F /* FirstOnbPartViewController.swift */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -146,20 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				E823596A2A39CEF800E10702 /* Extensions */,
-				E82359622A39CB3F00E10702 /* Animations */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		E82359622A39CB3F00E10702 /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				E810131D2A4041C20024215F /* onboardingSecondPart.json */,
-				E81013292A4046380024215F /* onboardingFirstPart.json */,
-				E810132F2A4069810024215F /* onbFirst.json */,
-				E82359632A39CB7000E10702 /* dayNightSwitch.json */,
-			);
-			path = Animations;
 			sourceTree = "<group>";
 		};
 		E82359652A39CB7F00E10702 /* ViewControllers */ = {
@@ -266,6 +236,7 @@
 			);
 			name = "Everything Everywhere All at Once";
 			packageProductDependencies = (
+				E89B1D1E2B58FF6D00DC4662 /* ColorPanel */,
 			);
 			productName = "Everything Everywhere All at Once";
 			productReference = E800C3642A36FBD500A417DF /* Everything Everywhere All at Once.app */;
@@ -279,7 +250,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					E800C3632A36FBD500A417DF = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -296,6 +267,7 @@
 			);
 			mainGroup = E800C35B2A36FBD500A417DF;
 			packageReferences = (
+				E89B1D1D2B58FF6D00DC4662 /* XCRemoteSwiftPackageReference "ColorPanel" */,
 			);
 			productRefGroup = E800C3652A36FBD500A417DF /* Products */;
 			projectDirPath = "";
@@ -311,12 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81013302A4069810024215F /* onbFirst.json in Resources */,
 				E800C3742A36FBD600A417DF /* LaunchScreen.storyboard in Resources */,
-				E82359642A39CB7000E10702 /* dayNightSwitch.json in Resources */,
 				E800C3712A36FBD600A417DF /* Assets.xcassets in Resources */,
-				E810131E2A4041C20024215F /* onboardingSecondPart.json in Resources */,
-				E810132E2A4046380024215F /* onboardingFirstPart.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,21 +303,17 @@
 				E8A92F9B2B0976B3000E5EAD /* TestovViewController.swift in Sources */,
 				E877241B2B0963FA003150F2 /* Coordinator.swift in Sources */,
 				E800C36C2A36FBD500A417DF /* MainViewController.swift in Sources */,
-				E82359672A39CBB300E10702 /* LottieViewController.swift in Sources */,
 				E800C3682A36FBD500A417DF /* AppDelegate.swift in Sources */,
 				E8A92F8F2B096A47000E5EAD /* EnterPasswordViewController.swift in Sources */,
 				E82359692A39CC4800E10702 /* MainTittleList.swift in Sources */,
-				E81013222A4045CA0024215F /* FirstOnbPartViewController.swift in Sources */,
 				E823596C2A39CF0B00E10702 /* UIViewController + ext.swift in Sources */,
 				E82BBECC2A9004850072A3F9 /* RxSwiftViewController.swift in Sources */,
 				E8A92F852B0965CC000E5EAD /* ModuleFactory.swift in Sources */,
 				E8A92F932B096A6F000E5EAD /* EnterBirtdayViewController.swift in Sources */,
 				E898B2942A726BC7004EF10B /* CircleAnimViewController.swift in Sources */,
-				E810131C2A4040690024215F /* ListLottieViewController.swift in Sources */,
 				E810131A2A403BC80024215F /* SimpleViewController.swift in Sources */,
 				E8A92F822B09654A000E5EAD /* RegisterCoordinator.swift in Sources */,
 				E8A92F912B096A57000E5EAD /* EnterNameViewController.swift in Sources */,
-				E81013202A4042CE0024215F /* OnboardingViewController.swift in Sources */,
 				E8A92F8B2B0968D5000E5EAD /* BaseData.swift in Sources */,
 				E8A92F892B096726000E5EAD /* FlowController.swift in Sources */,
 				E8A92F952B096D9F000E5EAD /* CoordinatorFactory.swift in Sources */,
@@ -374,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -435,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -564,6 +530,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E89B1D1D2B58FF6D00DC4662 /* XCRemoteSwiftPackageReference "ColorPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Reyganstorm/ColorPanel.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E89B1D1E2B58FF6D00DC4662 /* ColorPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E89B1D1D2B58FF6D00DC4662 /* XCRemoteSwiftPackageReference "ColorPanel" */;
+			productName = ColorPanel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E800C35C2A36FBD500A417DF /* Project object */;
 }

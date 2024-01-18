@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "colorpanel",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:Reyganstorm/ColorPanel.git",
+      "state" : {
+        "revision" : "d748d65e6f2b7fad65ca3795b866dafe8ee24de8",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}

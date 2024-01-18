@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ColorPanel
 
 class EnterPhoneViewController: UIViewController, FlowController {
     
@@ -14,13 +15,13 @@ class EnterPhoneViewController: UIViewController, FlowController {
     private let button: UIButton = {
         let button = UIButton()
         button.setTitle("EnterPhoneViewController", for: .normal)
-        button.backgroundColor = .green
+        button.backgroundColor = ColorPanel().mainColor
         return button
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        view.backgroundColor = ColorPanel().backroundColor
         view.addSubview(button)
         button.frame = CGRect(x: view.frame.width/3,
                               y: view.frame.height/2,
