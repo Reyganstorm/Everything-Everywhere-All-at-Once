@@ -16,4 +16,8 @@ class CoordinatorFactory {
     func createRegisterCoordinator(navigationController: UINavigationController) -> RegisterCoordinator {
         RegisterCoordinator(navigationController: navigationController)
     }
+    
+    func createPlaygroundCoordinator(navigationController: UINavigationController) -> PlaygroundCoordintor {
+        PlaygroundCoordintor(navigationController: navigationController)
+    }
 }

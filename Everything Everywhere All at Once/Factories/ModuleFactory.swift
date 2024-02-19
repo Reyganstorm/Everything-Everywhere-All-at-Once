@@ -28,4 +28,8 @@ class ModuleFactory {
     func createEnterBirtdayNumber() -> EnterBirtdayViewController {
         EnterBirtdayViewController()
     }
+    
+    func createTestVC() -> CheckTestViewController {
+        CheckTestViewController()
+    }
 }

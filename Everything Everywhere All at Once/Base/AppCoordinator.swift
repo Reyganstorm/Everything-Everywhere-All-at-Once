@@ -19,11 +19,25 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
-        let isNotAuth = true
+        let isNotAuth = false
         
         if isNotAuth {
             showRegistrationFlow()
+        } else {
+            showPalygroundFlow()
         }
+    }
+    
+    private func showPalygroundFlow() {
+        let playgroundCoordinator = CoordinatorFactory().createPlaygroundCoordinator(navigationController: navigationController)
+        childCoordinators.append(playgroundCoordinator)
+        
+        playgroundCoordinator.flowComplitionHandler = { [weak self] in
+            self?.showMainFlow()
+            
+        }
+        
+        playgroundCoordinator.start()
     }
     
     private func showRegistrationFlow() {
@@ -44,4 +58,5 @@ class AppCoordinator: Coordinator {
         
         print(navigationController.viewControllers)
     }
+    
 }

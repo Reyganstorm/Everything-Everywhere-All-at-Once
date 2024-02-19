@@ -32,6 +32,8 @@
 		E8A92F952B096D9F000E5EAD /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F942B096D9F000E5EAD /* CoordinatorFactory.swift */; };
 		E8A92F972B09714A000E5EAD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F962B09714A000E5EAD /* AppCoordinator.swift */; };
 		E8A92F9B2B0976B3000E5EAD /* TestovViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A92F9A2B0976B3000E5EAD /* TestovViewController.swift */; };
+		E8AB50012B83622200B7F744 /* PlaygroundCoordintor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB50002B83622200B7F744 /* PlaygroundCoordintor.swift */; };
+		E8AB50042B8362B500B7F744 /* CheckTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB50032B8362B500B7F744 /* CheckTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		E8A92F942B096D9F000E5EAD /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
 		E8A92F962B09714A000E5EAD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E8A92F9A2B0976B3000E5EAD /* TestovViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestovViewController.swift; sourceTree = "<group>"; };
+		E8AB50002B83622200B7F744 /* PlaygroundCoordintor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundCoordintor.swift; sourceTree = "<group>"; };
+		E8AB50032B8362B500B7F744 /* CheckTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,11 +139,12 @@
 		E82359652A39CB7F00E10702 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E8AB50022B83628700B7F744 /* PlaygroundVCs */,
 				E82359682A39CC4800E10702 /* MainTittleList.swift */,
 				E800C36B2A36FBD500A417DF /* MainViewController.swift */,
 				E8240EBF2AEC08EE002825A9 /* TextView */,
 				E82BBECA2A9004640072A3F9 /* RxSwift */,
-				E898B2922A726BB2004EF10B /* TestVC */,
+				E898B2922A726BB2004EF10B /* RegisterVCs */,
 				E81013182A403B9E0024215F /* JustVCs */,
 				E81013172A403B8C0024215F /* Lottie */,
 			);
@@ -181,7 +186,7 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		E898B2922A726BB2004EF10B /* TestVC */ = {
+		E898B2922A726BB2004EF10B /* RegisterVCs */ = {
 			isa = PBXGroup;
 			children = (
 				E8A92F862B096612000E5EAD /* EnterPhoneViewController.swift */,
@@ -191,13 +196,14 @@
 				E8A92F922B096A6F000E5EAD /* EnterBirtdayViewController.swift */,
 				E8A92F9A2B0976B3000E5EAD /* TestovViewController.swift */,
 			);
-			path = TestVC;
+			path = RegisterVCs;
 			sourceTree = "<group>";
 		};
 		E8A92F802B096536000E5EAD /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
 				E8A92F812B09654A000E5EAD /* RegisterCoordinator.swift */,
+				E8AB50002B83622200B7F744 /* PlaygroundCoordintor.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -217,6 +223,14 @@
 				E800C3672A36FBD500A417DF /* AppDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		E8AB50022B83628700B7F744 /* PlaygroundVCs */ = {
+			isa = PBXGroup;
+			children = (
+				E8AB50032B8362B500B7F744 /* CheckTestViewController.swift */,
+			);
+			path = PlaygroundVCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +321,7 @@
 				E8A92F8F2B096A47000E5EAD /* EnterPasswordViewController.swift in Sources */,
 				E82359692A39CC4800E10702 /* MainTittleList.swift in Sources */,
 				E823596C2A39CF0B00E10702 /* UIViewController + ext.swift in Sources */,
+				E8AB50012B83622200B7F744 /* PlaygroundCoordintor.swift in Sources */,
 				E82BBECC2A9004850072A3F9 /* RxSwiftViewController.swift in Sources */,
 				E8A92F852B0965CC000E5EAD /* ModuleFactory.swift in Sources */,
 				E8A92F932B096A6F000E5EAD /* EnterBirtdayViewController.swift in Sources */,
@@ -315,6 +330,7 @@
 				E8A92F822B09654A000E5EAD /* RegisterCoordinator.swift in Sources */,
 				E8A92F912B096A57000E5EAD /* EnterNameViewController.swift in Sources */,
 				E8A92F8B2B0968D5000E5EAD /* BaseData.swift in Sources */,
+				E8AB50042B8362B500B7F744 /* CheckTestViewController.swift in Sources */,
 				E8A92F892B096726000E5EAD /* FlowController.swift in Sources */,
 				E8A92F952B096D9F000E5EAD /* CoordinatorFactory.swift in Sources */,
 			);
