@@ -98,6 +98,7 @@
 		E800C3662A36FBD500A417DF /* Everything Everywhere All at Once */ = {
 			isa = PBXGroup;
 			children = (
+				E8AFE94D2C89A54D000136D9 /* Test */,
 				E8A92F9C2B097B18000E5EAD /* Application */,
 				E82359652A39CB7F00E10702 /* ViewControllers */,
 				E82359612A39CB2E00E10702 /* Resources */,
